@@ -1,0 +1,64 @@
+.background-Img {
+  background-image: url("/images/spotify-background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-Img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 1px;
+  padding: 1rem;
+
+}
+
+label {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+input[type="text"] {
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  width: 30vw;
+  border: solid gray 1px;
+}
+
+button[type="submit"] {
+  background-color: rgb(246, 104, 99);
+  color: #fff;
+  border: none;
+  border-radius: 1px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
